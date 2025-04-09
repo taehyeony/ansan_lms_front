@@ -1,0 +1,7 @@
+.lecture_item_box {
+  width: 723px;
+  height: 72px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
