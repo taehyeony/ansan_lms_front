@@ -10,15 +10,7 @@ const lectureListMock: LectureListItem[] = [
     startTime: '09:30',
     endTime: '12:20',
     weekday: '목',
-  },
-  {
-    lectureId: 2,
-    title: '네트워크관리',
-    department: '컴퓨터공학과-A',
-    classroom: '진리관 328호',
-    startTime: '12:40',
-    endTime: '02:30',
-    weekday: '목',
+    isMajor: true,
   },
   {
     lectureId: 3,
@@ -28,6 +20,17 @@ const lectureListMock: LectureListItem[] = [
     startTime: '12:40',
     endTime: '02:30',
     weekday: '금',
+    isMajor: true,
+  },
+  {
+    lectureId: 2,
+    title: '네트워크관리',
+    department: '컴퓨터공학과-A',
+    classroom: '진리관 328호',
+    startTime: '12:40',
+    endTime: '02:30',
+    weekday: '목',
+    isMajor: false,
   },
 ];
 

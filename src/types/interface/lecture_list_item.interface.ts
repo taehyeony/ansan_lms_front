@@ -6,4 +6,5 @@ export default interface LectureListItem {
   startTime: string;
   endTime: string;
   weekday: string;
+  isMajor: boolean;
 }

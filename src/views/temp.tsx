@@ -1,9 +1,11 @@
 import { LectureItem } from 'components';
+import { Header } from 'layouts';
 import { lectureListMock } from 'mocks';
 
 export default function Temp() {
   return (
     <div>
+      <Header />
       <div
         style={{
           display: 'flex',
